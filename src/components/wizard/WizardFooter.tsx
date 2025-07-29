@@ -53,7 +53,7 @@ const WizardFooter: React.FC<WizardFooterProps> = ({
   const isInterviewSchedulingStep = currentStep === 3 && subStepLabel === 'Interview Scheduling';
 
   return (
-    <footer className="bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.05)] py-6 px-6 fixed bottom-0 left-0 right-0">
+    <footer className="bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.05)] py-3 px-6 fixed bottom-0 left-0 right-0">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-[#637085]">
           {subStepLabel}
