@@ -107,7 +107,7 @@ const WizardFooter: React.FC<WizardFooterProps> = ({
                 variant="primary" 
                 onClick={onNext}
                 disabled={isNextDisabled}
-               className="h-8 px-6"
+                className="h-8 px-6"
               >
                 Schedule
               </Button>
@@ -116,8 +116,8 @@ const WizardFooter: React.FC<WizardFooterProps> = ({
             <Button 
               variant="secondary" 
               onClick={onBack}
-             className="w-8 h-8 p-0 flex items-center justify-center"
-               className="h-8 px-6"
+              className="w-8 h-8 p-0 flex items-center justify-center"
+            >
               <ArrowLeftIcon size={24} />
             </Button>
           )}
@@ -127,7 +127,7 @@ const WizardFooter: React.FC<WizardFooterProps> = ({
               variant="primary" 
               onClick={onNext}
               disabled={isNextDisabled}
-             className="h-8 px-6"
+              className="h-8 px-6"
             >
               {footerButtons.primary}
             </Button>
@@ -137,7 +137,7 @@ const WizardFooter: React.FC<WizardFooterProps> = ({
             <Button 
               variant="primary" 
               onClick={onNext}
-             className="h-8 px-6"
+              className="h-8 px-6"
             >
               Finish
             </Button>
