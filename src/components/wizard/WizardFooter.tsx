@@ -89,7 +89,7 @@ const WizardFooter: React.FC<WizardFooterProps> = ({
               <Button 
                 variant="primary" 
                 onClick={onNext}
-                className="h-12 px-6"
+                className="h-6 px-6"
               >
                 Schedule interview
               </Button>
